@@ -4,5 +4,5 @@
 read -p "Enter project name: " project
 mkdir -p "$project"/{input,output,language}
 
-curl -fsSL https://raw.githubusercontent.com/Vict0rTesla/scripts/main/convert.sh -o "$project/convert.sh"
+curl -fsSL https://raw.githubusercontent.com/Vict0rTesla/scripts/main/mp4-to-mpeg2.sh -o "$project/convert.sh"
 chmod +x "$project/convert.sh"
